@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name":" Sopa de Minhoca",
+        "ingredients": "Minhocas, alho, limão, páprica doce, orégano e cebola",
+        "price": 200,
+        "image": "assets/img/menu/menu-item-1.png"
+    },
+    {
+        "id": 2,
+        "name":" Orelha de Lesma",
+        "ingredients": "Lesma, dente de formiga, molho tártado, orégano e creme de milho",
+        "price": 250,
+        "image": "assets/img/menu/menu-item-2.png"
+    },
+    {
+        "id": 3,
+        "name":" Esquilo ao Vinho",
+        "ingredients": "Vinho tinto, esquilo, alho, pimentão e alfafa",
+        "price": 290,
+        "image": "assets/img/menu/menu-item-3.png"
+    },
+    {
+        "id": 4,
+        "name":" Rodela de Mula",
+        "ingredients": "Mula, tomilho, aspargos, azeitona e quiabo",
+        "price": 200,
+        "image": "assets/img/menu/menu-item-4.png"
+    },
+    {
+        "id": 5,
+        "name":" Tiras de Beterraba",
+        "ingredients": "Beterraba, alho, tomate, cenoura e manjericão",
+        "price": 300,
+        "image": "assets/img/menu/menu-item-5.png"
+    },
+    {
+        "id": 6,
+        "name":" Salmão Direva",
+        "ingredients": "Salmão, peperoni, jiló, orégano e vagem",
+        "price": 200,
+        "image": "assets/img/menu/menu-item-6.png"
+    }
+]
