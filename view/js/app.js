@@ -137,7 +137,7 @@ const addDataToHTML = () => {
     }
 
 const initApp = () => {
-    fetch('http://atividades.test/CRUD-MVC-PHP/view/produtos.php')
+    fetch('http://lojasenac.test/view/produtos.php')
         .then(response => response.json())
         .then(data => {
             listProduct = data;
