@@ -17,10 +17,10 @@ class Banco
         $this->mysqli = new mysqli(BD_SERVIDOR, BD_USUARIO, BD_SENHA, BD_BANCO);
     }
 
-    public function setLivro($nome, $autor, $quantidade, $preco, $data)
+    public function setLivro($nome, $autor, $quantidade, $preco, $data, $imagem)
     {
-        $stmt = $this->mysqli->prepare("INSERT INTO livros (`nome`, `autor`, `quantidade`, `preco`, `data`) VALUES (?,?,?,?,?)");
-        $stmt->bind_param("sssss", $nome, $autor, $quantidade, $preco, $data);
+        $stmt = $this->mysqli->prepare("INSERT INTO livros (`nome`, `autor`, `quantidade`, `preco`, `data`, `imagem`) VALUES (?,?,?,?,?,?)");
+        $stmt->bind_param("ssssss", $nome, $autor, $quantidade, $preco, $data, $imagem);
         if ($stmt->execute() == TRUE) {
             return true;
         } else {

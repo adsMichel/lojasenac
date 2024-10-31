@@ -6,13 +6,14 @@
     <div class="container">
         <?php include("menu.php") ?>
         <div class="row">
-            <form method="post" action="../controller/ControllerCadastro.php" id="form" name="form" onsubmit="validar(document.form); return false;" class="col-10">
+            <form method="post" action="../controller/ControllerCadastro.php" enctype="multipart/form-data" id="form" name="form" onsubmit="validar(document.form); return false;" class="col-10">
                 <div class="form-group">
                     <input class="form-control" type="text" id="nome" name="nome" placeholder="Nome do Livro" required autofocus>
                     <input class="form-control" type="text" id="autor" name="autor" placeholder="Autor do Livro" required>
                     <input class="form-control" type="number" id="quantidade" name="quantidade" placeholder="Quantidade de Páginas" required>
                     <input class="form-control" type="text" id="preco" name="preco" placeholder="Preço do Livro" onkeypress="formatarMoeda();" required>
                     <input class="form-control" type="date" id="data" name="data" placeholder="Data de Pulicação" required>
+                    <input class="form-control" type="file" id="imagem" name="imagem" placeholder="Imagem do Livro" required>
                 </div>
                 <div class="form-group">
                     <button type="submit" class="btn btn-success" id="cadastrar">Cadastrar</button>
